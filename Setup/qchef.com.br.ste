@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<site SitePrefVersionMajor="11" SitePrefVersionMinor="2">
+    <localinfo sitename="qchef.com.br" ftporrdsserver="FALSE" mediaqueryfile="" localroot="D:%5CArquivos%20de%20trabalho%5CDa%20Vinci%20Artes%5CClientes%5CQchef%5Cqchef.com.br%5Chttpdocs%5C" assetfolder="D:%5CArquivos%20de%20trabalho%5CDa%20Vinci%20Artes%5CClientes%5CQchef%5Cqchef.com.br%5Chttpdocs%5CSpryAssets%5C" imagefolder="" spacerfilepath="" refreshlocal="TRUE" rewritedocrellinks="FALSE" cache="FALSE" httpaddress="http://ftp.qchef.com.br/" relativeTo="DOCUMENT" caseSensitiveLinks="FALSE" curserver="webserver"/>
+    <designnotes usedesignnotes="FALSE" sharedesignnotes="FALSE"/>
+    <sitemap homepage="" pagesperrow="200" columnwidth="125" showdependentfiles="FALSE" showpagetitles="FALSE" showhiddenfiles="FALSE"/>
+    <fileviewcolumns sharecolumns="FALSE">
+        <column name="Local%20Files" align="left" show="TRUE" share="FALSE" builtin="TRUE" localwidth="189" remotewidth="180"/>
+        <column name="Notes" align="center" show="FALSE" share="FALSE" builtin="TRUE" localwidth="36" remotewidth="36"/>
+        <column name="Size" align="right" show="TRUE" share="FALSE" builtin="TRUE" localwidth="40" remotewidth="-2"/>
+        <column name="Type" align="left" show="TRUE" share="FALSE" builtin="TRUE" localwidth="60" remotewidth="60"/>
+        <column name="Modified" align="left" show="TRUE" share="FALSE" builtin="TRUE" localwidth="102" remotewidth="102"/>
+        <column name="Checked%20Out%20By" align="left" show="TRUE" share="FALSE" builtin="TRUE" localwidth="-1" remotewidth="-1"/>
+</fileviewcolumns>
+    <serverlist>
+        <server servermodel="" servertype="remoteServer" weburl="http://ftp.qchef.com.br/" connectionsmigrated="FALSE" serverobjectsversion="1" defaultdoctype="HTML" accesstype="ftp" host="ftp.qchef.com.br" remoteroot="" name="Servidor%20remoto" maintainSyncInfo="TRUE" autoUpload="FALSE" user="qchefcbr" pw="713365376C3B6B3F6E" savePW="TRUE" enablecheckin="FALSE" checkoutname="" checkoutwhenopen="TRUE" emailaddress="" usefirewall="FALSE" usepasv="TRUE" useSFTP="FALSE" useFTPS="FALSE" useImplicitFTPS="FALSE" encryptOnlyCommandChannel="FALSE" authenticationMode="TRUSTED_CERTIFICATE" useIPv6="FALSE" useftpoptimization="TRUE" usealternaterename="FALSE" pathNameCharacterSet="Windows-1252"/>
+</serverlist>
+    <cloaking enabled="TRUE" patterns="FALSE">
+        <cloakedfolder folder="dw_php_codehinting.config"/>
+        <cloakedpattern pattern=".png"/>
+        <cloakedpattern pattern=".fla"/>
+</cloaking>
+    <contributorintegration enabled="FALSE"/>
+</site>
